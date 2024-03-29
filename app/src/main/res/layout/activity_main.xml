@@ -44,4 +44,41 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="84dp" />
 
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="What is your birthday?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="278dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
