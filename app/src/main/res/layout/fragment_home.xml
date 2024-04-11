@@ -6,17 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="What is your name?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:text="What's your birthday?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="384dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
