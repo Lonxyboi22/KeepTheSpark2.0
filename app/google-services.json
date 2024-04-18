@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "447694574580",
+    "project_id": "keep-the-spark",
+    "storage_bucket": "keep-the-spark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447694574580:android:22dddfb9fa683c7f189fa1",
+        "android_client_info": {
+          "package_name": "com.example.keepthespark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnNpRht3Kk1KEBXKb0VAeE_VztxtkbaYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
